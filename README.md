@@ -3,7 +3,7 @@
 This repository contains TypeScript solutions for LeetCode problems. Each problem is implemented in a separate file with the naming convention:
 
 ```
-problemNo-problemName.ts
+problemNumber-problemName.ts
 ```
 
 ## 📌 How to Use
