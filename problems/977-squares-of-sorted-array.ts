@@ -1,4 +1,6 @@
-function sortedSquares(nums: Array<number>): Array<number> {
+import { displayArray } from './display-array';
+
+export function sortedSquares(nums: Array<number>): Array<number> {
   const n = nums.length;
   const result: number[] = new Array(n);
   let left = 0;
@@ -18,6 +20,8 @@ function sortedSquares(nums: Array<number>): Array<number> {
     }
     index--;
   }
+
+  displayArray<number>(result);
 
   return result;
 }
