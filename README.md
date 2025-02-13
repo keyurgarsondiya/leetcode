@@ -45,12 +45,13 @@ problemNumber-problemName.ts
 
 ```
 📂 LeetCode-TS
- ┣ 📜 index.ts        # Main entry point
- ┣ 📜 problems        # Main entry point
- ┣┣ 📜 189-rotate-array.ts  # Example problem solution
- ┣┣ 📜 display-array.ts  # Utility for displaying arrays
- ┣ 📜 package.json     # Project configuration
- ┗ 📜 tsconfig.json    # TypeScript configuration
+ ┣ 📜 index.ts                # Main entry point
+ ┣ 📜 problems                # Main entry point
+ ┣┣ 📜 189-rotate-array.ts    # Example problem solution
+ ┣┣ 📜 display-array.ts       # Utility for displaying arrays
+ ┣┣ 📜 index.ts               # Exporting all problems for shorter & combined imports
+ ┣ 📜 package.json            # Project configuration
+ ┗ 📜 tsconfig.json           # TypeScript configuration
 ```
 
 ## 📌 Contribution
