@@ -46,7 +46,7 @@ problemNumber-problemName.ts
 ```
 📂 LeetCode-TS
  ┣ 📜 index.ts                # Main entry point
- ┣ 📜 problems                # Main entry point
+ ┣ 📜 problems                # Directory containing all problems
  ┣┣ 📜 189-rotate-array.ts    # Example problem solution
  ┣┣ 📜 display-array.ts       # Utility for displaying arrays
  ┣┣ 📜 index.ts               # Exporting all problems for shorter & combined imports
