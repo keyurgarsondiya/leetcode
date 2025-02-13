@@ -21,12 +21,13 @@ problemNumber-problemName.ts
 
 3. **Run the Code**
     - Open `index.ts` and import the problem file you want to test.
+    - Create the problem file inside the problems folder
     - Call the function with the required inputs inside the `Main` function.
     - Comment out other problem function calls to avoid conflicts.
 
    Example (`index.ts`):
    ```ts
-   import { rotate } from './189-rotate-array';
+   import { rotate } from './problems';
 
    function Main() {
      rotate([1, 2, 3, 4, 5], 2);
@@ -45,8 +46,9 @@ problemNumber-problemName.ts
 ```
 📂 LeetCode-TS
  ┣ 📜 index.ts        # Main entry point
- ┣ 📜 189-rotate-array.ts  # Example problem solution
- ┣ 📜 display-array.ts  # Utility for displaying arrays
+ ┣ 📜 problems        # Main entry point
+ ┣┣ 📜 189-rotate-array.ts  # Example problem solution
+ ┣┣ 📜 display-array.ts  # Utility for displaying arrays
  ┣ 📜 package.json     # Project configuration
  ┗ 📜 tsconfig.json    # TypeScript configuration
 ```
